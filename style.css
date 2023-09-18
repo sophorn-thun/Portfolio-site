@@ -101,7 +101,7 @@ body{
 .container-skills {
   padding: 1rem 6rem;
   text-align: center;
-  background-color: #8a9394;
+  background-color: #174e58;
   font-size: 20px;
 }
 .about-me {
@@ -116,7 +116,7 @@ body{
   padding-bottom: 1rem;
 }
 .skills-color {
-  color: #082d35;
+  color: #789ca5;
   font-weight: 600;
 }
 .skills-white {
@@ -207,9 +207,10 @@ body{
     .contact a {
       text-decoration: none;
       color: #ffffff;
+      font-size: 12px;
     }
     .contact p {
-      font-size: 10px;
+      font-size: 12px;
       padding-left: 10px;
     }
     .social-media-link i {
