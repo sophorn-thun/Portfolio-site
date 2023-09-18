@@ -22,7 +22,7 @@ body{
   min-height: 100vh;
   color: #ffffff;
   scroll-snap-type: y mandatory;
-  /* width: 80%; */
+  width: 80%;
 }
 
 
