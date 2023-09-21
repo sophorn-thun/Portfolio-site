@@ -10,7 +10,7 @@
 html {
   font-family: 'Montserrat',sans-serif;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
@@ -137,13 +137,12 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 30px;
     padding-top: 1rem;
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .recent-project div {
     background-color: rgb(212, 221, 229);
     padding: 20px;
-    transition: background 0.3s, transform 0.2s;
     color: #082d35;
     border-radius: 5px;
   }
@@ -163,17 +162,33 @@ body{
     margin-bottom: auto;
     margin-top: 40px;
   }
-  .recent-project div:hover {
-    background-color: #306067;
-    transform: scale(1.05);
-    cursor: pointer;
-    color: #fff;
-    border-radius: 5px;
-  }
   .clone-website img,.full-stack img, .art-gallery img {
     width:200px;
     height: 200px;
   }
+
+  .clone-website p,.full-stack p, .art-gallery p {
+    margin-top: 0.5rem;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+  .btn {
+    display: flex;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff; 
+    text-decoration: none;
+    border-radius: 4px; 
+    font-size: 13px;
+}
+  .btn:hover {
+    background-color: #306067;
+    color: #ffffff;
+}
   /* ------------------------------------------------------------Contact section--------------------------------------------- */
 
   .head-section {
@@ -242,11 +257,11 @@ body{
   .profile {
     height: calc(150px + 1rem);
     width: calc(150px + 1rem);
-    right: 20px;
+    right: 15px;
   }
 
 .header-title {
-  font-size: 15px;
+  font-size: 18px;
   left: 20px; 
   bottom: 40px;
 }
