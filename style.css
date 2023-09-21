@@ -170,7 +170,7 @@ body{
     color: #fff;
     border-radius: 5px;
   }
-  .clone-website img,.full-stack img {
+  .clone-website img,.full-stack img, .art-gallery img {
     width:200px;
     height: 200px;
   }
