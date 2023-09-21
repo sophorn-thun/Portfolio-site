@@ -141,10 +141,9 @@ body{
   }
 
   .recent-project div {
-    background-color: rgb(212, 221, 229);
+    background-color: #dae4e6;
     padding: 20px;
     color: #082d35;
-    border-radius: 5px;
   }
 
   .recent-project div i {
