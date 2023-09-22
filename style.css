@@ -275,6 +275,13 @@ body{
   }
 
 /*------------------------------------------------------Responsive design--------------------------------------------*/
+
+@media (max-width: 950px) {
+  .recent-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 @media (max-width: 660px) {
   body {
     width: 100%;
@@ -375,10 +382,6 @@ body{
     font-size: 30px;
     margin-left: 5px;
   }
-  .recent-project {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 
   .container-work h2 {
     font-size: 20px;
@@ -397,9 +400,4 @@ body{
   }
 }
 
-@media (max-width: 950px) {
-  .recent-project {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
+
