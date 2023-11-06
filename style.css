@@ -86,7 +86,7 @@ body{
   width: 100%;    
   display: block; 
 }
-.header-name, .header-title {
+.header-name, .header-title, .header-location {
   position: absolute;
   left: 50px;       
   z-index: 5;      
@@ -100,9 +100,14 @@ body{
 
 }
 
-.header-title {
+.header-location {
   margin-bottom: 10px;
   bottom: 90px;  
+}
+
+.header-title {
+  margin-bottom: 10px;
+  bottom: 140px;
 }
 
 /*------------------------------------------------------Style for profile section---------------------------------------------*/
