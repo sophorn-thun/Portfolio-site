@@ -297,17 +297,6 @@ body{
     right: 15px;
   }
 
-.header-title {
-  font-size: 18px;
-  left: 20px; 
-  bottom: 40px;
-}
-.header-name {
-  left: 20px;    
-  font-size: 20px;   
-  bottom: 10px;        
-}
-
   .fa-bars:hover {
     cursor: pointer;
   }
@@ -356,16 +345,7 @@ body{
       width: 150px;
       right: 10px;
   }
-  .header-title {
-    font-size: 15px;
-    left: 10px; 
-    bottom: 40px;
-  }
-  .header-name {
-    left: 10px;    
-    font-size: 20px;   
-    bottom: 10px;        
-  }
+
   .header-text h1 {
     font-size: 20px;
   }
