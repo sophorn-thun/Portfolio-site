@@ -194,7 +194,7 @@ body{
     height: 200px;
   }
 
-  .clone-website p,.full-stack p, .art-gallery p, .dog-breed p {
+  .clone-website p,.full-stack p, .art-gallery p, .dog-breed {
     margin-top: 0.5rem;
   }
 
