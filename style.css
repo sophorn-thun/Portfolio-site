@@ -189,12 +189,12 @@ body{
     margin-bottom: auto;
     margin-top: 40px;
   }
-  .clone-website img,.full-stack img, .art-gallery img {
+  .clone-website img,.full-stack img, .art-gallery img, .dog-breed img {
     width:200px;
     height: 200px;
   }
 
-  .clone-website p,.full-stack p, .art-gallery p {
+  .clone-website p,.full-stack p, .art-gallery p, .dog-breed p {
     margin-top: 0.5rem;
   }
 
