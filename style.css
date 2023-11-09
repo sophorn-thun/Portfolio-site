@@ -309,6 +309,7 @@ body{
     grid-template-columns: 1fr 1fr;
   }
 }
+
 @media (max-width: 660px) {
   body {
     width: 100%;
@@ -346,19 +347,19 @@ body{
 
   .header-name {
     margin-bottom: 5px;
-    bottom: 20px; 
+    bottom: 10px; 
     font-size: 1.25rem;
   }
 
   .header-location {
     margin-bottom: 5px;
-    bottom: 50px; 
+    bottom: 45px; 
     font-size: 0.75rem; 
   }
   
   .header-title {
     margin-bottom: 5px;
-    bottom: 80px;
+    bottom: 70px;
     font-size: 1rem;
   }
 
