@@ -314,8 +314,8 @@ body{
   .profile {
     height: calc(150px + 1rem);
     width: calc(150px + 1rem);
-    right: 30px;
-    bottom: -25px;
+    right: 20px;
+    bottom: -30px;
   }
 
   .fa-bars:hover {
@@ -344,18 +344,21 @@ body{
 
   .header-name {
     margin-bottom: 5px;
+    left: 25px;
     bottom: 10px; 
     font-size: 1.25rem;
   }
 
   .header-location {
     margin-bottom: 5px;
+    left: 25px;
     bottom: 45px; 
     font-size: 0.75rem; 
   }
   
   .header-title {
     margin-bottom: 5px;
+    left: 25px;
     bottom: 70px;
     font-size: 1rem;
   }
